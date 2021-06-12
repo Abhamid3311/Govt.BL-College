@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+ }
+
+ header{
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../orange.jpg);
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+
+       }
+
+ul{
+    float: right;
+    padding: 5px 15px;
+    margin: 25px;
+
+}
+
+ul li{
+      display: inline-block;
+
+
+}
+
+ul li a{
+        padding: 5px 15px;
+        margin: 2px;
+        color:yellow;
+        border: 2px #fff solid ;
+        transition: 0.6s ease;
+        background-color: blue;
+
+}
+
+
+ul li a:hover{
+    color: #fff;
+   background-color: yellowgreen;
+  
+}
+
+.logo img{
+        height: auto;
+        width: 150px;
+        float: left;
+
+}
+
+.main{
+    margin: auto;
+    max width: 1200px;
+}
+
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+.title h1{
+       color: rgb(79, 79, 231);
+       position: center;
+       font-size: 100px;
+
+}
+
+.button{
+    position: absolute;
+    top: 60%;
+   left: 50%;
+    transform: translate(-50%,-50%);
+
+
+}
+
+.btn{
+    padding: 5px 15px;
+    margin: 2px;
+    color:yellow;
+    border: 2px #fff solid ;
+    transition: 0.6s ease;
+   
+
+
+}
+
+.btn:hover{
+    color: #fff;
+   background-color: yellowgreen;}
